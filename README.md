@@ -13,12 +13,11 @@ This Visual Studio 2019 addin allows to rename main window. This feature useful 
     <Solution Path="C:\Projects\SAM5\core-app\core-app.sln" DisplayName="core-app (master)" />
     <Solution Path="C:\Projects\SAM5\core-db\core-db.sln" DisplayName="core-db (master)" />
     <Solution Path="C:\Projects\netcore31\core-app\core-app.sln" DisplayName="core-app (netcore 3.1)" />
-    <Solution Path="C:\Users\dykolchev.CORP\source\repos\ConsoleApp1\ConsoleApp1.sln" DisplayName="My Console Application" />
   </Solutions>
 </Configuration>
 ```
 2. Add environment variable `VS2019_SOLUTIONS` with full path to configuration file
 ``` cmd
-set VS2019_SOLUTIONS="%USERPROFILE%\Documents\Visual Studio 2019\solution.configuration"
+set VS2019_SOLUTIONS=%USERPROFILE%\Documents\Visual Studio 2019\solution.configuration
 ```
 3. Start or restart Visual Studio 2019 & open required solution
